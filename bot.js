@@ -77,7 +77,7 @@ client3.on("message", message => {
       if(!message.channel.guild) return;
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
-    if(message.author.id !== "455331653309562910") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "463698464845594628") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
         let args = message.content.split(" ").slice(1);
 message.channel.send(args).then(s => {
 s.delete(3000);
@@ -89,7 +89,7 @@ client4.on("message", message => {
       if(!message.channel.guild) return;
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
-    if(message.author.id !== "455331653309562910") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "463698464845594628") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
         let args = message.content.split(" ").slice(1);
 message.channel.send(args).then(s => {
 s.delete(3000);
@@ -101,7 +101,7 @@ client5.on("message", message => {
       if(!message.channel.guild) return;
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
-    if(message.author.id !== "455331653309562910") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "463698464845594628") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
         let args = message.content.split(" ").slice(1);
 message.channel.send(args).then(s => {
 s.delete(3000);
@@ -116,13 +116,13 @@ client2.on('ready', () => {
 client2.user.setActivity('Love..', {type: "STREAMING",url: "http://www.twitch.tv/dangernumber17"});
 });
 client3.on('ready', () => {
-client3.user.setActivity('Fucck Off..', {type: "STREAMING",url: "http://www.twitch.tv/dangernumber17"});
+client3.user.setActivity('Love..', {type: "STREAMING",url: "http://www.twitch.tv/dangernumber17"});
 });
 client4.on('ready', () => {
-client4.user.setActivity('Fucck Off..', {type: "STREAMING",url: "http://www.twitch.tv/dangernumber17"});
+client4.user.setActivity('Love..', {type: "STREAMING",url: "http://www.twitch.tv/dangernumber17"});
 });
 client5.on('ready', () => {
-client5.user.setActivity('Fucck Off..', {type: "STREAMING",url: "http://www.twitch.tv/dangernumber17"});
+client5.user.setActivity('Love..', {type: "STREAMING",url: "http://www.twitch.tv/dangernumber17"});
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on("message", message => {
@@ -158,11 +158,11 @@ client3.on("message", message => {
       if(!message.channel.guild) return;
         if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
-    if(message.author.id !== "455331653309562910") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!455331653309562910>').then(s => {
+    if(message.author.id !== "463698464845594628") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+message.channel.send('#rep <@!463698464845594628>').then(s => {
 s.delete(3000);
 });
-message.channel.send('->rep <@!455331653309562910>').then(s => {
+message.channel.send('->rep <@!463698464845594628>').then(s => {
 s.delete(3000);
 });
 }
@@ -172,11 +172,11 @@ client4.on("message", message => {
       if(!message.channel.guild) return;
         if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
-    if(message.author.id !== "455331653309562910") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!455331653309562910>').then(s => {
+    if(message.author.id !== "463698464845594628") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+message.channel.send('#rep <@!463698464845594628>').then(s => {
 s.delete(3000);
 });
-message.channel.send('->rep <@!455331653309562910>').then(s => {
+message.channel.send('->rep <@!463698464845594628>').then(s => {
 s.delete(3000);
 });
 }
@@ -186,11 +186,11 @@ client5.on("message", message => {
       if(!message.channel.guild) return;
         if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
-    if(message.author.id !== "455331653309562910") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!455331653309562910>').then(s => {
+    if(message.author.id !== "463698464845594628") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+message.channel.send('#rep <@!463698464845594628>').then(s => {
 s.delete(3000);
 });
-message.channel.send('->rep <@!455331653309562910>').then(s => {
+message.channel.send('->rep <@!463698464845594628>').then(s => {
 s.delete(3000);
 });
 }
